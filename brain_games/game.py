@@ -1,7 +1,6 @@
 import prompt
 
 
-
 CORRECT_GOAL = 3
 
 

@@ -1,7 +1,8 @@
-
 import random
 
+
 INSTRUCTION = 'What is the result of the expression?'
+
 
 def game_question():
     n1 = random.randrange(1, 100)
@@ -17,5 +18,3 @@ def game_question():
             question = f'{n1} * {n2}'
             answer = n1 * n2
     return (question, str(answer))
-
-
