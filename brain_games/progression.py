@@ -1,6 +1,5 @@
 import random
 
-
 INSTRUCTION = 'What number is missing in the progression?'
 
 progression_length = None

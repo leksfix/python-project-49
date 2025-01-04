@@ -1,5 +1,5 @@
-from brain_games.game import run_game
 from brain_games.calc import INSTRUCTION, game_question
+from brain_games.game import run_game
 
 
 def main():

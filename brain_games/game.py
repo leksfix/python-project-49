@@ -1,6 +1,5 @@
 import prompt
 
-
 CORRECT_GOAL = 3
 
 
@@ -19,7 +18,8 @@ def run_game(instruction, game_question):
             correct_answers_count += 1
             print('Correct!')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(.", end=" ")
+            print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {username}!")
             return
     print(f'Congratulations, {username}!')
