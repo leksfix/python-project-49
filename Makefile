@@ -8,5 +8,4 @@ build:
 	uv build
 
 package-install:
-	# uv tool install --upgrade dist/*.whl
 	uv tool install --force-reinstall dist/*.whl
