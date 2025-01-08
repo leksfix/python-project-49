@@ -1,9 +1,11 @@
+"""Launch script for brain-progression game"""
 import brain_games.games.progression as progression
 from brain_games.game import run_game
 
 
 def main():
-	run_game(progression)
+    """Runs the game with questions from the 'progression' module"""
+    run_game(progression)
 
 
 if __name__ == "__main__":
